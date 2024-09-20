@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer base {
+   body {
+    @apply font-gothamBody;
+   }
+}
+
+@layer utilities {
+
+    /* header css */
+    .list-menu__item span {
+        @apply text-16 font-gothamBold;
+    }
+}

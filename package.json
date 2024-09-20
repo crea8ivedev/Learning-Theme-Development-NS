@@ -6,5 +6,11 @@
   },
   "scripts": {
     "build": "npx tailwindcss -i ./css/application.css -o ./assets/application.css.liquid --watch"
-  }
+  },
+  "name": "learning-theme-development-ns",
+  "version": "1.0.0",
+  "description": "",
+  "main": "postcss.config.js",
+  "author": "",
+  "license": "ISC"
 }
