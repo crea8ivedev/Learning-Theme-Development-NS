@@ -1,10 +1,6 @@
 var swiper = new Swiper(".announcement-bar", {
     spaceBetween: 30,
     centeredSlides: true,
-    autoplay: {
-      delay: 2500,
-      disableOnInteraction: false,
-    },
     navigation: {
       nextEl: ".next-arrow",  
       prevEl: ".prev-arrow",  

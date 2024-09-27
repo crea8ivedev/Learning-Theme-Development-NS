@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "video_banner_RbECjj": {
@@ -6,7 +15,7 @@
         "video_hpkXeC": {
           "type": "video",
           "settings": {
-            "img": "shopify:\/\/shop_images\/banner-mba-2.gif",
+            "img": "shopify://shop_images/banner-mba-2.gif",
             "heading": "Get Educated On Skincare!",
             "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             "shop_now": "Shop Now",
@@ -17,7 +26,7 @@
           "type": "video",
           "disabled": true,
           "settings": {
-            "img": "shopify:\/\/shop_images\/banner-mba-2.gif",
+            "img": "shopify://shop_images/banner-mba-2.gif",
             "heading": "Get Educated On Skincare!",
             "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
             "shop_now": "Shop Now",
@@ -29,6 +38,7 @@
         "video_hpkXeC",
         "video_nXJY7r"
       ],
+      "disabled": true,
       "settings": {
       }
     },
@@ -38,15 +48,21 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Browse our latest products",
-            "heading_size": "h0"
+            "heading": "Get Educated On Skincare!"
+          }
+        },
+        "text_V7rBy7": {
+          "type": "text",
+          "settings": {
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "text_style": "subtitle"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
+            "button_label_1": "Shop Now",
+            "button_link_1": "shopify://collections/all",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -56,25 +72,77 @@
       },
       "block_order": [
         "heading",
+        "text_V7rBy7",
         "button"
       ],
       "disabled": true,
       "settings": {
-        "image_overlay_opacity": 40,
-        "image_height": "large",
-        "desktop_content_position": "bottom-center",
+        "image": "shopify://shop_images/banner_1.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "bottom-left",
         "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-3",
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-1",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
-        "show_text_below": false
+        "show_text_below": true
+      }
+    },
+    "slideshow_NrN6Fn": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_wKHgLR": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/banner_1.png",
+            "heading": "Get Educated On Skincare!",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Shop Now",
+            "link": "shopify://collections",
+            "box_align": "bottom-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_eeQrD6": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "heading": "Image slide",
+            "subheading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "button_label": "Shop Now",
+            "link": "",
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_wKHgLR",
+        "slide_eeQrD6"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
       }
     }
   },
   "order": [
     "video_banner_RbECjj",
-    "image_banner"
+    "image_banner",
+    "slideshow_NrN6Fn"
   ]
 }

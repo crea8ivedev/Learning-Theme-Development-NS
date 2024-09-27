@@ -1,6 +1,15 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "current": {
-    "logo": "shopify:\/\/shop_images\/higher_education_logo.png",
+    "logo": "shopify://shop_images/higher_education_logo.png",
     "logo_width": 150,
     "type_header_font": "assistant_n4",
     "heading_scale": 100,
@@ -98,13 +107,13 @@
     "sale_badge_color_scheme": "scheme-4",
     "sold_out_badge_color_scheme": "scheme-3",
     "brand_headline": "",
-    "brand_description": "<p><\/p>",
+    "brand_description": "<p></p>",
     "brand_image_width": 100,
-    "social_facebook_link": "\/",
-    "social_linkedin_link": "\/",
-    "social_instagram_link": "\/",
+    "social_facebook_link": "/",
+    "social_linkedin_link": "/",
+    "social_instagram_link": "/",
     "social_youtube_link": "",
-    "social_tiktok_link": "\/",
+    "social_tiktok_link": "/",
     "social_twitter_link": "",
     "social_snapchat_link": "",
     "social_pinterest_link": "",
@@ -189,6 +198,17 @@
           "button": "#ffffff",
           "button_label": "#334fb4",
           "secondary_button_label": "#ffffff",
+          "shadow": "#121212"
+        }
+      },
+      "scheme-e03987d9-8779-4c36-8e29-c4ec819e7cf3": {
+        "settings": {
+          "background": "#ccff33",
+          "background_gradient": "",
+          "text": "#121212",
+          "button": "#ccff33",
+          "button_label": "#ffffff",
+          "secondary_button_label": "#121212",
           "shadow": "#121212"
         }
       }
@@ -350,7 +370,7 @@
       "sale_badge_color_scheme": "scheme-4",
       "sold_out_badge_color_scheme": "scheme-3",
       "brand_headline": "",
-      "brand_description": "<p><\/p>",
+      "brand_description": "<p></p>",
       "brand_image_width": 100,
       "social_twitter_link": "",
       "social_facebook_link": "",

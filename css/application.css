@@ -50,12 +50,19 @@
     .header__icons svg {
         @apply text-cotalBlue font-bold;
     }
-     /* announcement-bar css start */
-     .ctm-announcement-bar {
-        @apply bg-[#ccff33] w-full py-3;
+    .button--primary {
+        @apply bg-cotalGreen;
     }
+     /* announcement-bar css start */
+    .ctm-announcement-bar {
+        @apply bg-cotalGreen;
+    }
+
     /* footer css */
     .footer-block h2, li {
         @apply text-white;
+    }
+    .list-social__link {
+        @apply small_desktop:mr-7 !p-0;
     }
 }
