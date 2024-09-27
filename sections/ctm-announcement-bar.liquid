@@ -1,0 +1,95 @@
+<div class="ctm-announcement-bar w-full">
+  <div class="container mx-auto flex items-center relative">
+    <div class="swiper announcement-bar">
+     
+      <div class="swiper-wrapper">
+        {% for block in section.blocks %}
+          <div class="swiper-slide announcement-bar-content flex items-center justify-center">
+            <p>{{ block.settings.text }}</p>
+          </div>
+        {% endfor %}
+      </div>
+      {% if section.blocks.size > 1 %}
+        <div class="next_prev absolute inset-y-0 flex justify-around items-center w-full px-4"> <!-- Add padding and positioning -->
+          <span class="svg-wrapper prev-arrow">
+            {{- 'icon-left-arrow.svg' | inline_asset_content -}}
+          </span>
+          <span class="svg-wrapper next-arrow">
+            {{- 'icon-right-arrow.svg' | inline_asset_content -}}
+          </span>
+        </div>
+      {% endif %}
+    </div>
+    <div class="Close-btn ml-4">
+      <a href="javascript:void(0);" onclick="HideAnnouncementBar();" aria-label="Close">
+        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
+          <g clip-path="url(#clip0_4847_49896)">
+            <path d="M14.6342 12.8661L9.26794 7.49981L14.6338 2.13394C15.1221 1.64569 15.1221 0.854437 14.6338 0.366187C14.1456 -0.122062 13.3543 -0.122062 12.8661 0.366187L7.50019 5.73206L2.13431 0.366187C1.64606 -0.121687 0.854437 -0.121687 0.366562 0.366187C-0.121687 0.854437 -0.121687 1.64569 0.366562 2.13394L5.73244 7.49981L0.366187 12.8661C-0.122062 13.3543 -0.122062 14.1456 0.366187 14.6338C0.610312 14.8779 0.930188 14.9998 1.25006 14.9998C1.56994 14.9998 1.88981 14.8779 2.13394 14.6338L7.50019 9.26756L12.8664 14.6338C13.1106 14.8779 13.4304 14.9998 13.7503 14.9998C14.0702 14.9998 14.3901 14.8779 14.6342 14.6338C15.1224 14.1456 15.1224 13.3543 14.6342 12.8661Z" fill="currentColor"/>
+          </g>
+          <defs>
+            <clipPath id="clip0_4847_49896">
+              <rect width="15" height="15" fill="currentColor"/>
+            </clipPath>
+          </defs>
+        </svg>
+      </a>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Custom Announcement Bar",
+  "max_blocks": 12,
+  "class": "announcement-bar-section",
+  "enabled_on": {
+    "groups": ["header"]
+  },
+  "settings": [
+    {
+      "type": "header",
+      "content": "t:sections.announcement-bar.settings.header__2.content"
+    },
+    {
+      "type": "checkbox",
+      "id": "auto_rotate",
+      "label": "t:sections.announcement-bar.settings.auto_rotate.label",
+      "default": false
+    },
+    {
+      "type": "range",
+      "id": "change_slides_speed",
+      "min": 3,
+      "max": 10,
+      "step": 1,
+      "unit": "s",
+      "label": "t:sections.announcement-bar.settings.change_slides_speed.label",
+      "default": 5
+    }
+  ],
+  "blocks": [
+    {
+      "type": "announcement",
+      "name": "t:sections.announcement-bar.blocks.announcement.name",
+      "settings": [
+        {
+          "type": "text",
+          "id": "text",
+          "default": "t:sections.announcement-bar.blocks.announcement.settings.text.default",
+          "label": "t:sections.announcement-bar.blocks.announcement.settings.text.label"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom Announcement Bar",
+      "blocks": [
+        {
+          "type": "announcement"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

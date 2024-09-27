@@ -4,15 +4,58 @@
 
 
 @layer base {
-   body {
-    @apply font-gothamBody;
-   }
+    body {
+        @apply font-gothamBody leading-26 text-16 p-0 m-0;
+    }
+
+    p {
+        @apply font-gothamBody text-16 leading-36 font-medium text-cotalBlack;
+    }
+    span {
+        @apply font-gothamBody text-16 leading-36 font-normal text-cotalBlack;
+    }
+    a {
+        @apply font-gothamBody text-16 leading-36 font-normal text-cotalBlack;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        @apply font-vectotaBlack m-0;
+    }
+    .h1 {
+        @apply font-vectotaBlack tracking-normal desktop:text-40 desktop:leading-50 text-28 leading-38 font-extrabold;
+    }
+    .h2 {
+        @apply font-vectotaBlack tracking-normal desktop:text-34 desktop:leading-44 mdscreen6:text-28 mdscreen6:leading-34 text-24 leading-38 font-extrabold;
+    }
+    .h3 {
+        @apply font-vectotaBlack tracking-normal desktop:text-24 desktop:leading-34  mdscreen6:text-20 mdscreen6:leading-28 text-18 leading-28 font-extrabold;
+    }
 }
 
+@layer components {
+    .green_btn {
+        @apply px-5 py-[10px] text-cotalBlack bg-cotalGreen font-gothamBold inline-flex justify-center rounded-[10px] leading-normal w-fit mt-5;
+    }
+}
 @layer utilities {
 
     /* header css */
     .list-menu__item span {
         @apply text-16 font-gothamBold;
+    }
+    .header__icons svg {
+        @apply text-cotalBlue font-bold;
+    }
+     /* announcement-bar css start */
+     .ctm-announcement-bar {
+        @apply bg-[#ccff33] w-full py-3;
+    }
+    /* footer css */
+    .footer-block h2, li {
+        @apply text-white;
     }
 }

@@ -1,5 +1,37 @@
 {
   "sections": {
+    "video_banner_RbECjj": {
+      "type": "video-banner",
+      "blocks": {
+        "video_hpkXeC": {
+          "type": "video",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/banner-mba-2.gif",
+            "heading": "Get Educated On Skincare!",
+            "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "shop_now": "Shop Now",
+            "button_link": ""
+          }
+        },
+        "video_nXJY7r": {
+          "type": "video",
+          "disabled": true,
+          "settings": {
+            "img": "shopify:\/\/shop_images\/banner-mba-2.gif",
+            "heading": "Get Educated On Skincare!",
+            "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+            "shop_now": "Shop Now",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "video_hpkXeC",
+        "video_nXJY7r"
+      ],
+      "settings": {
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -26,6 +58,7 @@
         "heading",
         "button"
       ],
+      "disabled": true,
       "settings": {
         "image_overlay_opacity": 40,
         "image_height": "large",
@@ -38,38 +71,10 @@
         "stack_images_on_mobile": false,
         "show_text_below": false
       }
-    },
-    "featured_collection": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "scheme-1",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 44,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
-    "image_banner",
-    "featured_collection"
+    "video_banner_RbECjj",
+    "image_banner"
   ]
 }
