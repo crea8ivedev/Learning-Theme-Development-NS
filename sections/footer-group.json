@@ -11,6 +11,22 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "172769076703c9eb10": {
+      "type": "apps",
+      "blocks": {
+        "instasync_instasync_feed_wxTDVY": {
+          "type": "shopify://apps/instasync/blocks/instasync_feed/98ab4ac6-e751-4136-9aa2-fada4b7a70e8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "instasync_instasync_feed_wxTDVY"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "footer": {
       "type": "footer",
       "blocks": {
@@ -20,6 +36,13 @@
             "image": "shopify://shop_images/image_1.png",
             "image_width": 200,
             "alignment": ""
+          }
+        },
+        "newsletter_NRJ4kD": {
+          "type": "newsletter",
+          "settings": {
+            "newsletter_heading": "Join Our Newsletter",
+            "subheading": "Enjoy 15% Off Your Purchase When You Subscribe Today!"
           }
         },
         "link_list_6jnjPt": {
@@ -39,6 +62,7 @@
       },
       "block_order": [
         "image_7eGeFK",
+        "newsletter_NRJ4kD",
         "link_list_6jnjPt",
         "link_list_aX3MPe"
       ],
@@ -46,7 +70,6 @@
         "color_scheme": "scheme-1",
         "copyright_content": "© 2022 Higher Education Skincare",
         "newsletter_enable": true,
-        "newsletter_heading": "Join Our Newsletter",
         "enable_follow_on_shop": true,
         "show_social": true,
         "enable_country_selector": false,
@@ -60,6 +83,7 @@
     }
   },
   "order": [
+    "172769076703c9eb10",
     "footer"
   ]
 }

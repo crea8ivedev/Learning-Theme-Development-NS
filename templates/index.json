@@ -138,11 +138,144 @@
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
       }
+    },
+    "featured_collection_RQzMyF": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "BEST SELLERS",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "higher-education-skincare",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "standard",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_8BnPWM": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_bRkxmr": {
+          "type": "heading",
+          "settings": {
+            "heading": "Chemical or physical? Exfoliating 101 – the difference is in the formula!"
+          }
+        },
+        "text_nieLUF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_dqAzHw": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get Exfoliating",
+            "button_link": "shopify://collections/higher-education-skincare"
+          }
+        }
+      },
+      "block_order": [
+        "heading_bRkxmr",
+        "text_nieLUF",
+        "button_dqAzHw"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/38cd966f38d131c6c127de3b38ac7f44.jpg",
+        "extra_class": "get-exfoliating",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 4
+      }
+    },
+    "multicolumn_krCXqN": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_pBiCLe": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/124c187d4fb8a1dc819db7e32884a118.png",
+            "title": "",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_nLmqCX": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/df8eb48a72ec4da86f6550792b7d0803.png",
+            "title": "",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Xbhakz": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/9d01cb499d99dcebfb425bc667c74c14.png",
+            "title": "",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_pBiCLe",
+        "column_nLmqCX",
+        "column_Xbhakz"
+      ],
+      "settings": {
+        "title": "PRESS",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "video_banner_RbECjj",
     "image_banner",
-    "slideshow_NrN6Fn"
+    "slideshow_NrN6Fn",
+    "featured_collection_RQzMyF",
+    "image_with_text_8BnPWM",
+    "multicolumn_krCXqN"
   ]
 }

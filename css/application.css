@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@keyframes badges {
+    0% {
+        transform: rotate(0deg);
+    }
+    80%, 100% {
+        transform: rotate(1turn);
+    }
+}
 
 @layer base {
     body {
@@ -9,7 +17,7 @@
     }
 
     p {
-        @apply font-gothamBody text-16 leading-36 font-medium text-cotalBlack;
+        @apply font-gothamBody text-16 leading-30 font-medium text-cotalBlack;
     }
     span {
         @apply font-gothamBody text-16 leading-36 font-normal text-cotalBlack;
@@ -40,10 +48,16 @@
     .green_btn {
         @apply px-5 py-[10px] text-cotalBlack bg-cotalGreen font-gothamBold inline-flex justify-center rounded-[10px] leading-normal w-fit mt-5;
     }
+    .green_btn:hover {
+        @apply px-5 py-[10px] text-white bg-cotalOrange font-gothamBold inline-flex justify-center rounded-[10px] leading-normal w-fit mt-5;
+    }
+    .green_btn span:hover{
+        @apply text-white;
+    }
 }
 @layer utilities {
 
-    /* header css */
+   
     .list-menu__item span {
         @apply text-16 font-gothamBold;
     }
@@ -53,16 +67,45 @@
     .button--primary {
         @apply bg-cotalGreen;
     }
-     /* announcement-bar css start */
+    
     .ctm-announcement-bar {
         @apply bg-cotalGreen;
     }
 
-    /* footer css */
+  
     .footer-block h2, li {
         @apply text-white;
     }
     .list-social__link {
         @apply small_desktop:mr-7 !p-0;
+    }
+    .footer-block__details-content.list-unstyled li a {
+        @apply text-white no-underline;
+    }
+    .ctm-multicolumn {
+        @apply !bg-cotalLightGreen;
+    } 
+    .get-exfoliating .image-with-text__text-item.grid__item {
+        @apply bg-cotalDarkGreen;
+    }
+    .get-exfoliating .image-with-text__heading.inline-richtext {
+        @apply text-white;
+    }
+    .get-exfoliating .image-with-text__text.rte.body p {
+        @apply text-white;
+    }
+    .ctm-image-with-text::before {
+        @apply absolute content-[""] top-0 left-[48%] bg-[url(https://cdn.shopify.com/s/files/1/0794/4683/5502/files/Goal-Digger-28-7.png?v=1727696755)] bg-no-repeat bg-contain w-[100px] h-[100px] z-10 -translate-x-1/2;
+        animation: badges 2s ease-in-out infinite;
+        transform-origin: center;
+    }
+    .card__media {
+        @apply border-2 !rounded-[20px] border-[#3858B4];
+    }
+    .card__media::before {
+        @apply absolute content-[""] top-0 right-0 bg-[url(https://cdn.shopify.com/s/files/1/0794/4683/5502/files/box-pattern-b.png?v=1727701950)] bg-no-repeat bg-contain w-[100px] h-[100px] z-10;
+    }
+    .card__media::after {
+        @apply absolute content-[""] bottom-0 left-0 bg-[url(https://cdn.shopify.com/s/files/1/0794/4683/5502/files/image_1_78290496-ba40-4a0c-b8c3-7458e8a4c93a.png?v=1727701920)] bg-no-repeat bg-contain w-[100px] h-[100px] z-10;
     }
 }

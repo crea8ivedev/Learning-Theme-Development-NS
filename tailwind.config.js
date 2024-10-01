@@ -19,7 +19,10 @@ module.exports = {
       colors: {
         'cotalBlue': '#3858B4',
         'cotalBlack':'#2C2C2C',
-        'cotalGreen':'#ccff33'
+        'cotalGreen':'#ccff33',
+        'cotalLightGreen':'#DAFFFA',
+        'cotalDarkGreen':'#00B49D',
+        'cotalOrange':'#ea6143',
       },
       fontSize: {
         8: '8px',

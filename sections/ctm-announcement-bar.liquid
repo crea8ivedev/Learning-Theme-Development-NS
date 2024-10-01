@@ -1,5 +1,5 @@
 <div class="ctm-announcement-bar w-full">
-  <div class="container mx-auto flex items-center relative">
+  <div class="container mx-auto flex items-center relative py-3 mdscreen2:px-16">
     <div class="swiper announcement-bar">
      
       <div class="swiper-wrapper">
@@ -10,7 +10,7 @@
         {% endfor %}
       </div>
       {% if section.blocks.size > 1 %}
-        <div class="next_prev absolute inset-y-0 flex justify-around items-center w-full px-4 z-10"> <!-- Add padding and positioning -->
+        <div class="next_prev absolute inset-y-0 flex justify-around items-center w-full px-4 z-10 mdscreen:hidden"> <!-- Add padding and positioning -->
           <span class="svg-wrapper prev-arrow">
             {{- 'icon-left-arrow.svg' | inline_asset_content -}}
           </span>

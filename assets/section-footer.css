@@ -169,12 +169,21 @@
 }
 
 .footer-block__newsletter {
-  text-align: center;
+  text-align: left;
   flex-grow: 1;
 }
 
 .newsletter-form__field-wrapper {
   max-width: 36rem;
+}
+
+.footer-block.content p {
+  line-height: 26px;
+  color: white;
+}
+.newletter_button.green_btn{
+  margin-top: 0;
+  border-radius: 0px 10px 10px 0;
 }
 
 @media screen and (min-width: 750px) {
