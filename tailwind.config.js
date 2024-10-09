@@ -23,6 +23,7 @@ module.exports = {
         'cotalLightGreen':'#DAFFFA',
         'cotalDarkGreen':'#00B49D',
         'cotalOrange':'#ea6143',
+        'cotalLightGreen':'#DAFFFA',
       },
       fontSize: {
         8: '8px',

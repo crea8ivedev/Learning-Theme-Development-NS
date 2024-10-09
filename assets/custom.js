@@ -6,17 +6,43 @@ var swiper = new Swiper(".announcement-bar", {
       prevEl: ".prev-arrow",  
     },
   });
-  var swiper = new Swiper(".video-banner-swiper", {
+
+  var swiper = new Swiper(".iconSlider", {
+    slidesPerView: 3,
     spaceBetween: 30,
-    centeredSlides: true,
-    autoplay: {
-      delay: 2500,
-      disableOnInteraction: false,
-    },
+    loop: true,
+    autoplay: true,
     navigation: {
-      nextEl: ".next-arrow",  
-      prevEl: ".prev-arrow",  
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
     },
+    breakpoints: {
+      1024: {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        loop: false,
+      },
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 20,
+      loop: true,
+    },
+    575: {
+      slidesPerView: 1,
+      spaceBetween: 28,
+      loop: true,
+    },
+    414: {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      loop: true,
+    },
+    320: {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      loop: true,
+    },
+  }
   });
   
     

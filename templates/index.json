@@ -199,7 +199,7 @@
       "settings": {
         "image": "shopify://shop_images/38cd966f38d131c6c127de3b38ac7f44.jpg",
         "extra_class": "get-exfoliating",
-        "height": "medium",
+        "height": "large",
         "desktop_image_width": "medium",
         "layout": "text_first",
         "desktop_content_position": "middle",
@@ -252,6 +252,7 @@
         "column_nLmqCX",
         "column_Xbhakz"
       ],
+      "disabled": true,
       "settings": {
         "title": "PRESS",
         "heading_size": "h1",
@@ -268,6 +269,48 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "icon_with_text_slider_VWqUq8": {
+      "type": "icon-with-text-slider",
+      "blocks": {
+        "icon_with_text_jVqRnV": {
+          "type": "icon_with_text",
+          "settings": {
+            "icon": "shopify://shop_images/124c187d4fb8a1dc819db7e32884a118.png",
+            "description": "“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra ut velit amet, commodo sapien, nisi, tristique sed. Massa.”"
+          }
+        },
+        "icon_with_text_q7B9hF": {
+          "type": "icon_with_text",
+          "settings": {
+            "icon": "shopify://shop_images/logo-2_160x160_2x_1.png",
+            "description": "“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra ut velit amet, commodo sapien, nisi, tristique sed. Massa.”"
+          }
+        },
+        "icon_with_text_FLibBy": {
+          "type": "icon_with_text",
+          "settings": {
+            "icon": "shopify://shop_images/9d01cb499d99dcebfb425bc667c74c14.png",
+            "description": "“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra ut velit amet, commodo sapien, nisi, tristique sed. Massa.”"
+          }
+        },
+        "icon_with_text_Y7i4tB": {
+          "type": "icon_with_text",
+          "settings": {
+            "icon": "shopify://shop_images/logo-2_160x160_2x_1.png",
+            "description": "“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra ut velit amet, commodo sapien, nisi, tristique sed. Massa.”"
+          }
+        }
+      },
+      "block_order": [
+        "icon_with_text_jVqRnV",
+        "icon_with_text_q7B9hF",
+        "icon_with_text_FLibBy",
+        "icon_with_text_Y7i4tB"
+      ],
+      "settings": {
+        "heading": "Press"
+      }
     }
   },
   "order": [
@@ -276,6 +319,7 @@
     "slideshow_NrN6Fn",
     "featured_collection_RQzMyF",
     "image_with_text_8BnPWM",
-    "multicolumn_krCXqN"
+    "multicolumn_krCXqN",
+    "icon_with_text_slider_VWqUq8"
   ]
 }
