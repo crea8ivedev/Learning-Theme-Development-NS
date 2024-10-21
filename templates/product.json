@@ -120,7 +120,7 @@
             "pc_basic_label_font_size": 14,
             "pc_basic_label_bolden": "unset",
             "pc_basic_label_space_above": 0,
-            "pc_basic_option_background_color": "#FFFFFF",
+            "pc_basic_option_background_color": "#ffffff",
             "pc_basic_option_text_color": "#000000",
             "pc_basic_option_border_color": "#000000",
             "pc_basic_option_border_style": "solid",
@@ -134,7 +134,7 @@
             "pc_basic_option_space_inside": 10,
             "pc_advanced_custom_css": "",
             "pc_advanced_custom_js": "",
-            "pc_show_image_swatch_preview": false
+            "pc_show_image_swatch_preview": true
           }
         }
       },
